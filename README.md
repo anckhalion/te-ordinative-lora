@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19337864.svg)](https://doi.org/10.5281/zenodo.19337864)
+
 # TE Ordinative LoRA
 
 This repository contains the code and dataset to fine-tune an open-source LLM (such as Llama-3-8B-Instruct or Mistral) into a **TE-compliant Ordinative Agent**.
