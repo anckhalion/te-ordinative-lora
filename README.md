@@ -4,6 +4,21 @@
 
 This repository contains the code and dataset to fine-tune an open-source LLM (such as Llama-3-8B-Instruct or Mistral) into a **TE-compliant Ordinative Agent**.
 
+## Part of a Larger Ecosystem
+
+This repository is one piece of a three-part framework. For the complete picture, see:
+
+| Repository | Purpose | What you'll find there |
+| --- | --- | --- |
+| **[ordinative_sciences_framework](https://github.com/anckhalion/ordinative_sciences_framework)** | **Theory** | The complete TE framework, core ontology, and operational modules. |
+| **[te-ordinative-lora](https://github.com/anckhalion/te-ordinative-lora)** | **Practice** | Code, datasets, and scripts to fine-tune an LLM into a TE-compliant ordinative agent. |
+| **[te-oct-framework-en](https://github.com/anckhalion/te-oct-framework-en)** | **Validation** | English mirror of the core framework, plus OCT datasets and benchmarks. |
+
+Important:
+these repositories are designed to work together. Reading one in isolation can lead to incomplete understanding.
+
+For a full map, see `ECOSYSTEM.md`.
+
 ## Goal
 
 Current autoregressive models suffer from *Statistical Attenuation* (tendency to present "balanced" but structurally contradictory views) and *Biomechanical Compliance* (agreeing with the user even when the user's premise is flawed).
